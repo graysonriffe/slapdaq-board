@@ -294,6 +294,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -416,7 +417,7 @@
         "uuid": "13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
       }
     ],
-    "used_designators": "C5",
+    "used_designators": "C5-28,U4-11,D2-3,#PWR13-14,#PWR22-62,R2,R17-34,J4-7",
     "variants": []
   },
   "sheets": [
@@ -431,6 +432,18 @@
     [
       "6cb30bb6-2ed8-4e19-9b9a-43b34b8df240",
       "Analog_Voltage_Inputs"
+    ],
+    [
+      "9fcf8c45-7878-4d71-8839-8a8c7cfe13dc",
+      "Differential_Voltage_Input"
+    ],
+    [
+      "a78db6d7-437b-434b-b4fb-6f30222a6c59",
+      "Current_Inputs"
+    ],
+    [
+      "eb21b777-61c4-4e0c-995e-92861c8d5ad5",
+      "Thermocouple_Input"
     ]
   ],
   "text_variables": {},
