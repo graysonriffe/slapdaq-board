@@ -344,20 +344,18 @@
 					)
 				)
 			)
-			(symbol "ADS1261_0_1"
+			(symbol "ADS1261_1_1"
 				(rectangle
 					(start -11.43 17.78)
 					(end 11.43 -17.78)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "ADS1261_1_1"
 				(pin input line
 					(at -13.97 -8.89 0)
 					(length 2.54)
@@ -2384,6 +2382,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Missing current amplifers"
+		(exclude_from_sim no)
+		(at 73.66 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50e7a8b2-e0e1-446d-a09e-4486d55c55df")
 	)
 	(junction
 		(at 73.66 74.93)

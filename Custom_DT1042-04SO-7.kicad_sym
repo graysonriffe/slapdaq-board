@@ -61,20 +61,18 @@
 				)
 			)
 		)
-		(symbol "ADS1261_0_1"
+		(symbol "ADS1261_1_1"
 			(rectangle
 				(start -11.43 17.78)
 				(end 11.43 -17.78)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "ADS1261_1_1"
 			(pin input line
 				(at -13.97 -8.89 0)
 				(length 2.54)
@@ -731,20 +729,18 @@
 				)
 			)
 		)
-		(symbol "DT1042-04SO-7_0_1"
+		(symbol "DT1042-04SO-7_1_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -8.89)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "DT1042-04SO-7_1_1"
 			(pin bidirectional line
 				(at -12.7 3.81 0)
 				(length 2.54)

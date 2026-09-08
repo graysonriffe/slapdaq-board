@@ -1030,6 +1030,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Might want to switch to different switching regulators\nsince these don't have huge stocks on Mouser"
+		(exclude_from_sim no)
+		(at 77.47 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "735c2032-eee3-459f-875e-e9d9db603075")
+	)
 	(junction
 		(at 73.66 87.63)
 		(diameter 0)

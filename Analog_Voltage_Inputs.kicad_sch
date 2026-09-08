@@ -315,20 +315,18 @@
 					)
 				)
 			)
-			(symbol "ADS1261_0_1"
+			(symbol "ADS1261_1_1"
 				(rectangle
 					(start -11.43 17.78)
 					(end 11.43 -17.78)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "ADS1261_1_1"
 				(pin input line
 					(at -13.97 -8.89 0)
 					(length 2.54)
@@ -2355,6 +2353,26 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Missing voltage reference IC (1 for each ADC)"
+		(exclude_from_sim no)
+		(at 205.232 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8faeb0c6-311b-42c5-b6b4-382bbd4165b5")
+	)
+	(text "C6 needs to be a C0G type MLCC"
+		(exclude_from_sim no)
+		(at 137.922 131.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8c6673e-9645-4a38-b287-e0ee12724a7f")
 	)
 	(junction
 		(at 82.55 82.55)
