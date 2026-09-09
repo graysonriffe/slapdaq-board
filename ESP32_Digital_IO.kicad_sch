@@ -1056,7 +1056,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom_DT1042-04SO-7:DT1042-04SO-7"
+		(symbol "Custom_Symbols:DT1042-04SO-7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5496,7 +5496,7 @@
 			(uuid "ce4087be-1ea4-4c66-825c-75f774a73a80")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR043")
 					(unit 1)
@@ -5578,7 +5578,7 @@
 			(uuid "02aa2b53-a698-40cc-9e77-72abfe13f0ee")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R34")
 					(unit 1)
@@ -5659,7 +5659,7 @@
 			(uuid "c83340c3-6271-4c7c-8c9c-85fa801e291b")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R7")
 					(unit 1)
@@ -5736,7 +5736,7 @@
 			(uuid "c3211d11-fc2b-4a41-8dc3-35ab7911b4a2")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR012")
 					(unit 1)
@@ -5817,7 +5817,7 @@
 			(uuid "bb38133a-7f7d-40a5-924c-8d652e5d97a8")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R6")
 					(unit 1)
@@ -5943,7 +5943,7 @@
 			(uuid "f66932cd-d5c8-4d04-ad81-df4434e03a8c")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "U5")
 					(unit 1)
@@ -6024,7 +6024,7 @@
 			(uuid "c1981586-3763-460b-aec1-e5fd77ebcc4f")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R16")
 					(unit 1)
@@ -6105,7 +6105,7 @@
 			(uuid "f945f0f2-ad8a-4382-9466-87e1ff92120e")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R5")
 					(unit 1)
@@ -6183,7 +6183,7 @@
 			(uuid "a966c808-c139-4796-ad22-9688e33d3ab5")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR08")
 					(unit 1)
@@ -6264,7 +6264,7 @@
 			(uuid "94b2ae2d-fbcd-4e6a-b47f-8fd601f91be7")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R15")
 					(unit 1)
@@ -6341,7 +6341,7 @@
 			(uuid "19551475-63dd-42c6-adaa-a1de892ddb1a")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR017")
 					(unit 1)
@@ -6419,7 +6419,7 @@
 			(uuid "a6aabcaf-5167-4ccc-9c0e-406016d7a77f")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR062")
 					(unit 1)
@@ -6428,7 +6428,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_DT1042-04SO-7:DT1042-04SO-7")
+		(lib_id "Custom_Symbols:DT1042-04SO-7")
 		(at 191.77 111.76 0)
 		(mirror y)
 		(unit 1)
@@ -6533,7 +6533,7 @@
 			(uuid "e952c96d-6b44-4844-b5f1-2a011c5b91be")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "D1")
 					(unit 1)
@@ -6611,7 +6611,7 @@
 			(uuid "381b84ba-4239-47df-9f58-7ea17f44d9a5")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR016")
 					(unit 1)
@@ -6688,7 +6688,7 @@
 			(uuid "70f5757c-c36f-4172-b994-d89909657158")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR021")
 					(unit 1)
@@ -6769,7 +6769,7 @@
 			(uuid "7fa3ac19-86b9-444a-8bf2-194a721794c7")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R13")
 					(unit 1)
@@ -6895,7 +6895,7 @@
 			(uuid "c46ac8a1-ebfa-483f-b035-4faeaa06d671")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "U4")
 					(unit 1)
@@ -6973,7 +6973,7 @@
 			(uuid "3d00bb1b-1f21-4692-9f46-08497aa65ae8")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR011")
 					(unit 1)
@@ -7051,7 +7051,7 @@
 			(uuid "d794e71a-e05b-48e0-bc44-83cc0eb233e1")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR019")
 					(unit 1)
@@ -7129,7 +7129,7 @@
 			(uuid "535907d3-1ec3-4cad-b885-c5275f0516f1")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR020")
 					(unit 1)
@@ -7207,7 +7207,7 @@
 			(uuid "d782caeb-74c1-4e80-a0aa-77c9c932d0b8")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR010")
 					(unit 1)
@@ -7289,7 +7289,7 @@
 			(uuid "818bb13f-f0b2-44f8-8dc9-dc088f5c904f")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "C4")
 					(unit 1)
@@ -7402,7 +7402,7 @@
 			(uuid "4f656a52-38b8-41fa-8edb-4d448114d8fb")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "D2")
 					(unit 1)
@@ -7484,7 +7484,7 @@
 			(uuid "9fa49476-b761-45cd-9c61-c6c05f68b2ba")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R2")
 					(unit 1)
@@ -7562,7 +7562,7 @@
 			(uuid "a1a03241-b5f1-4e32-90b2-80ef09c8511d")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR060")
 					(unit 1)
@@ -7643,7 +7643,7 @@
 			(uuid "45b625a6-6634-4937-beb2-05087c1904b0")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R12")
 					(unit 1)
@@ -7725,7 +7725,7 @@
 			(uuid "cfc1e54d-9a46-4b8d-a9b2-968030b0ee1a")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R1")
 					(unit 1)
@@ -7806,7 +7806,7 @@
 			(uuid "9e029ad9-b601-4111-8b16-3aed5818ba81")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R14")
 					(unit 1)
@@ -7884,7 +7884,7 @@
 			(uuid "fcc59d6c-0575-49ee-ac4e-e4db69be7561")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR09")
 					(unit 1)
@@ -7965,7 +7965,7 @@
 			(uuid "7259403a-3282-4b6f-83a5-b0dab0d1e6cf")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R3")
 					(unit 1)
@@ -8043,7 +8043,7 @@
 			(uuid "27feccea-d561-45f4-a7ae-23efdaaa1ab8")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR015")
 					(unit 1)
@@ -8121,7 +8121,7 @@
 			(uuid "218adc54-7697-47f0-a29a-a85ae9516f2b")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR059")
 					(unit 1)
@@ -8202,7 +8202,7 @@
 			(uuid "858fc87f-52e3-4add-89f5-eca6b05c20c9")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R10")
 					(unit 1)
@@ -8324,7 +8324,7 @@
 			(uuid "2baa2eed-95ab-4054-8af2-61ce52e15209")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "J3")
 					(unit 1)
@@ -8439,7 +8439,7 @@
 			(uuid "31741141-e8e5-4269-ad5e-143563b26300")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "D3")
 					(unit 1)
@@ -8520,7 +8520,7 @@
 			(uuid "7b87c84e-a05c-447c-96e8-528847df2433")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R8")
 					(unit 1)
@@ -8602,7 +8602,7 @@
 			(uuid "319bb05b-1990-4a94-aeaa-8d02a865cead")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "C5")
 					(unit 1)
@@ -8823,7 +8823,7 @@
 			(uuid "bc5861aa-6a21-46b5-8106-b0903a7291e1")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "U3")
 					(unit 1)
@@ -8904,7 +8904,7 @@
 			(uuid "579c3d93-0da9-46f7-96e5-83061a6dea44")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R11")
 					(unit 1)
@@ -8985,7 +8985,7 @@
 			(uuid "5031ecb2-4af7-4dc4-b595-29a462a376d1")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R9")
 					(unit 1)
@@ -9066,7 +9066,7 @@
 			(uuid "ff03b6bf-2a45-4eef-b70d-a239ce9133f3")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R4")
 					(unit 1)
@@ -9214,7 +9214,7 @@
 			(uuid "97530035-b5a8-4dcd-86ba-b78264943344")
 		)
 		(instances
-			(project "capstoneKicad"
+			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "J2")
 					(unit 1)
