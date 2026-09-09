@@ -28,7 +28,76 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_driven|1536700|927100|2d489c13-4585-476f-964e-acb3e7f0f7ad|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|",
+        ""
+      ],
+      [
+        "pin_not_driven|1536700|952500|9d1516e0-8633-4e76-a415-9661f79f07a3|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|",
+        ""
+      ],
+      [
+        "pin_not_driven|1778000|889000|dc75833d-0278-4347-9d29-ba627c81e728|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/eb21b777-61c4-4e0c-995e-92861c8d5ad5|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/eb21b777-61c4-4e0c-995e-92861c8d5ad5|",
+        ""
+      ],
+      [
+        "pin_not_driven|1778000|914400|07b64eb7-899c-4637-b413-13bc692fc651|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/eb21b777-61c4-4e0c-995e-92861c8d5ad5|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/eb21b777-61c4-4e0c-995e-92861c8d5ad5|",
+        ""
+      ],
+      [
+        "pin_not_driven|1778000|965200|1cc61787-2287-4588-8930-8067cf77d8f5|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/eb21b777-61c4-4e0c-995e-92861c8d5ad5|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/eb21b777-61c4-4e0c-995e-92861c8d5ad5|",
+        ""
+      ],
+      [
+        "pin_not_driven|1816100|1003300|795825ea-f0d1-47e1-b3c8-ff758887f0c1|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|",
+        ""
+      ],
+      [
+        "pin_not_driven|1816100|825500|70489f91-af90-4af5-b90a-979b1f787b9a|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|",
+        ""
+      ],
+      [
+        "pin_not_driven|1816100|850900|4445cadb-2dc1-4216-a916-da5150b0ce1a|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|",
+        ""
+      ],
+      [
+        "pin_not_driven|1816100|876300|380b901c-ab04-4dc1-9770-38cd3e0fb467|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|",
+        ""
+      ],
+      [
+        "pin_not_driven|1816100|952500|096a10b9-2475-4b7a-9cd5-c27f57b4ce19|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|",
+        ""
+      ],
+      [
+        "pin_not_driven|1816100|977900|39b171e0-b1f5-4e00-86b2-6c3063c82da7|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240|",
+        ""
+      ],
+      [
+        "pin_not_driven|2197100|774700|47edd8d6-cef6-457e-81ac-a10039267e2c|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|",
+        ""
+      ],
+      [
+        "pin_not_driven|2197100|800100|0b03a2fd-8f8d-4de3-8e58-e452a4883e52|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|",
+        ""
+      ],
+      [
+        "pin_not_driven|2197100|825500|2cb29d89-9e55-496a-8a15-4b1a712406fc|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|",
+        ""
+      ],
+      [
+        "pin_not_driven|2197100|901700|e5ef34c4-3d60-4b9e-b46c-b3212f330661|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|",
+        ""
+      ],
+      [
+        "pin_not_driven|2197100|927100|b4e8b5d1-5509-4603-b0f5-4e2acc26655b|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|",
+        ""
+      ],
+      [
+        "pin_not_driven|2197100|952500|bc91eecb-528b-470d-8238-a765914e3c6c|00000000-0000-0000-0000-000000000000|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/a78db6d7-437b-434b-b4fb-6f30222a6c59|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -305,7 +374,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "SlapDAQ_BOM_Draft1.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -367,12 +436,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -417,7 +504,7 @@
         "uuid": "13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
       }
     ],
-    "used_designators": "C5-28,U4-11,D2-3,#PWR13-14,#PWR22-62,R2,R17-34,J4-7",
+    "used_designators": "C5-43,U4-16,L1-2,D2-3,#PWR13-14,#PWR18,#PWR22-97,#FLG1-6,R2,R17-38,J4-7",
     "variants": []
   },
   "sheets": [

@@ -1470,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 82.55) (xy 90.17 82.55)
+			(xy 83.82 82.55) (xy 92.71 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 80.01) (xy 104.14 80.01)
+			(xy 100.33 80.01) (xy 104.14 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 80.01) (xy 90.17 80.01)
+			(xy 86.36 80.01) (xy 92.71 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1620,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 82.55) (xy 104.14 82.55)
+			(xy 100.33 82.55) (xy 104.14 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1681,7 +1681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 71.12 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1704,6 +1704,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1715734"
 			(at 71.12 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1812,7 +1834,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 82.55 90)
+		(at 96.52 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1822,7 +1844,7 @@
 		(dnp no)
 		(uuid "23951a51-157f-4db6-b2a8-3b8153a36638")
 		(property "Reference" "R22"
-			(at 88.138 82.55 90)
+			(at 90.678 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1832,7 +1854,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 100.076 82.55 90)
+			(at 101.854 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1842,7 +1864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 84.328 90)
+			(at 96.52 84.328 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1853,7 +1875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 82.55 0)
+			(at 96.52 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1864,7 +1886,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 82.55 0)
+			(at 96.52 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1891,7 +1913,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 80.01 90)
+		(at 96.52 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1901,7 +1923,7 @@
 		(dnp no)
 		(uuid "32a71b33-805a-4a98-b3a9-8de4bcd0a86f")
 		(property "Reference" "R21"
-			(at 88.138 80.01 90)
+			(at 90.678 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1911,7 +1933,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 100.076 80.01 90)
+			(at 101.854 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1921,7 +1943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 81.788 90)
+			(at 96.52 81.788 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1932,7 +1954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 80.01 0)
+			(at 96.52 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,7 +1965,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 80.01 0)
+			(at 96.52 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2183,6 +2205,28 @@
 			)
 		)
 		(property "Description" "4-Channel Low Capacitance TVS Diode Array, DFN-10 / USON-10"
+			(at 102.87 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 102.87 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "D3V3XA4B10LP-7"
 			(at 102.87 106.68 0)
 			(hide yes)
 			(show_name no)
