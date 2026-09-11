@@ -3901,6 +3901,10 @@
 		(uuid "5d427f52-f38c-451e-a5d6-b79567d62b34")
 	)
 	(no_connect
+		(at 120.65 88.9)
+		(uuid "5ec7d581-2541-4b35-9478-922a614645ce")
+	)
+	(no_connect
 		(at 120.65 93.98)
 		(uuid "78ec38de-523e-44e5-8e75-5ac2a566bd21")
 	)
@@ -3923,6 +3927,10 @@
 	(no_connect
 		(at 151.13 121.92)
 		(uuid "a9eb95a1-0552-4e4c-b613-acaeb8b3c3d6")
+	)
+	(no_connect
+		(at 151.13 127)
+		(uuid "b0489272-bd93-451d-b4f8-cb8d0b8412dd")
 	)
 	(no_connect
 		(at 46.99 137.16)
@@ -3966,16 +3974,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 99.06) (xy 120.65 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "041f8fc1-5fa1-4b22-aa94-2ad562396884")
-	)
-	(wire
-		(pts
 			(xy 212.09 66.04) (xy 212.09 68.58)
 		)
 		(stroke
@@ -4016,16 +4014,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 104.14) (xy 120.65 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09bb34c3-f819-4f6e-93bd-cb6ff84ee22b")
-	)
-	(wire
-		(pts
 			(xy 212.09 68.58) (xy 212.09 72.39)
 		)
 		(stroke
@@ -4033,16 +4021,6 @@
 			(type default)
 		)
 		(uuid "0bfa4b71-d3f7-4f6b-9d9a-a0a362929c49")
-	)
-	(wire
-		(pts
-			(xy 151.13 127) (xy 154.94 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1071fcc0-2dd9-4dd0-8a63-4893f54af30d")
 	)
 	(wire
 		(pts
@@ -4076,7 +4054,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 111.76) (xy 69.85 111.76)
+			(xy 60.96 111.76) (xy 120.65 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4136,16 +4114,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 96.52) (xy 120.65 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f7753a8-1b40-4278-8f35-63bbde3db228")
-	)
-	(wire
-		(pts
 			(xy 217.17 104.14) (xy 218.44 104.14)
 		)
 		(stroke
@@ -4196,16 +4164,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 111.76) (xy 120.65 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b14c3c-91e6-431e-b675-ecda436738d2")
-	)
-	(wire
-		(pts
 			(xy 119.38 81.28) (xy 120.65 81.28)
 		)
 		(stroke
@@ -4216,7 +4174,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 109.22) (xy 69.85 109.22)
+			(xy 58.42 109.22) (xy 120.65 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4246,7 +4204,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 114.3) (xy 69.85 114.3)
+			(xy 63.5 114.3) (xy 120.65 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4366,16 +4324,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 109.22) (xy 120.65 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e6ec8d6-b23a-4527-b658-82d1b8e34589")
-	)
-	(wire
-		(pts
 			(xy 213.36 97.79) (xy 189.23 97.79)
 		)
 		(stroke
@@ -4396,7 +4344,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 99.06) (xy 69.85 99.06)
+			(xy 58.42 99.06) (xy 120.65 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4526,7 +4474,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 101.6) (xy 69.85 101.6)
+			(xy 60.96 101.6) (xy 120.65 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4996,16 +4944,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 114.3) (xy 120.65 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab4defed-3997-4bbc-9c18-b27826edbf7e")
-	)
-	(wire
-		(pts
 			(xy 151.13 114.3) (xy 154.94 114.3)
 		)
 		(stroke
@@ -5096,7 +5034,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 69.85 104.14)
+			(xy 63.5 104.14) (xy 120.65 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5166,23 +5104,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 106.68) (xy 69.85 106.68)
+			(xy 55.88 106.68) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c82d3845-61a1-47d5-ae2c-1b603f760879")
-	)
-	(wire
-		(pts
-			(xy 110.49 88.9) (xy 120.65 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb312f69-095c-48c5-98df-b2e90a524a13")
 	)
 	(wire
 		(pts
@@ -5326,7 +5254,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 96.52) (xy 69.85 96.52)
+			(xy 55.88 96.52) (xy 120.65 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5343,16 +5271,6 @@
 			(type default)
 		)
 		(uuid "f5c6c8ec-f492-4b77-9fa4-791dffb709c2")
-	)
-	(wire
-		(pts
-			(xy 77.47 101.6) (xy 120.65 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f770eba8-ea4c-472b-973c-b220ef752866")
 	)
 	(wire
 		(pts
@@ -5373,16 +5291,6 @@
 			(type default)
 		)
 		(uuid "fb0f0d10-15f4-4b13-b763-78ab3b8f11b3")
-	)
-	(wire
-		(pts
-			(xy 77.47 106.68) (xy 120.65 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd5b7fdc-d482-4cbc-b2a5-204ee7e45a7c")
 	)
 	(label "SPI_POCI"
 		(at 111.76 121.92 0)
@@ -5494,16 +5402,6 @@
 		)
 		(uuid "4dc44f20-8ef2-4d42-9798-7e33f4ff73a1")
 	)
-	(label "TC_FAULT"
-		(at 110.49 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "803cd26d-ff34-4f61-b8f3-24b6aaa78f32")
-	)
 	(label "SPI_PICO"
 		(at 111.76 119.38 0)
 		(effects
@@ -5563,16 +5461,6 @@
 			(justify left bottom)
 		)
 		(uuid "de1d23a0-09de-423e-beae-33663baea3c5")
-	)
-	(label "TC_DRDY"
-		(at 154.94 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3eca9fd-abee-4953-ab37-a06abe1753d5")
 	)
 	(label "ADC1_START"
 		(at 154.94 106.68 0)
@@ -6277,87 +6165,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2e2a01f2-8ba2-4840-965a-9edd29379bdb")
-		(property "Reference" "R16"
-			(at 65.532 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 78.994 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 116.078 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21881dba-5ac8-4fe8-b791-6d0062eb13af")
-		)
-		(pin "2"
-			(uuid "c1981586-3763-460b-aec1-e5fd77ebcc4f")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 170.18 91.44 90)
 		(unit 1)
 		(body_style 1)
@@ -6510,87 +6317,6 @@
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a291533-9bea-4e75-982a-ae5f23c472c1")
-		(property "Reference" "R15"
-			(at 65.532 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 78.994 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 113.538 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e241b47-b6f5-4e18-9d2e-96bef330c50c")
-		)
-		(pin "2"
-			(uuid "94b2ae2d-fbcd-4e6a-b47f-8fd601f91be7")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7098,87 +6824,6 @@
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 106.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5b4dbc62-ce76-4a0d-a3bb-67cbf1ad79ba")
-		(property "Reference" "R13"
-			(at 65.532 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 78.994 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 108.458 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a97bd3d7-99c6-456c-aa3c-95cccb5586a4")
-		)
-		(pin "2"
-			(uuid "7fa3ac19-86b9-444a-8bf2-194a721794c7")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7979,87 +7624,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e821446-986e-449e-a590-c9b240ab3981")
-		(property "Reference" "R12"
-			(at 65.532 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 78.994 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 105.918 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2268b0a8-8da1-46f7-a51a-9b9acc512dd1")
-		)
-		(pin "2"
-			(uuid "45b625a6-6634-4937-beb2-05087c1904b0")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 99.06 69.85 90)
 		(unit 1)
 		(body_style 1)
@@ -8135,87 +7699,6 @@
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "908d2a86-807a-4b1f-9168-0775e857c16d")
-		(property "Reference" "R14"
-			(at 65.532 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 78.994 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 110.998 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dba6f028-ccb5-46cd-89e1-6dacf467ec1c")
-		)
-		(pin "2"
-			(uuid "9e029ad9-b601-4111-8b16-3aed5818ba81")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8614,87 +8097,6 @@
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 99.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a82c3681-9504-4ff6-9042-4a32a068ff46")
-		(property "Reference" "R10"
-			(at 65.532 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 78.994 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 100.838 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9fb7a22-6454-4769-a32f-2d340a56ea52")
-		)
-		(pin "2"
-			(uuid "858fc87f-52e3-4add-89f5-eca6b05c20c9")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9323,168 +8725,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 101.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0b5537c-fc9a-4b6b-83e9-8f8267cb396c")
-		(property "Reference" "R11"
-			(at 65.532 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 78.994 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 103.378 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b77da5b-d41e-4037-a916-1f4a05d26fd9")
-		)
-		(pin "2"
-			(uuid "579c3d93-0da9-46f7-96e5-83061a6dea44")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f48f0c86-8dc0-4da2-8f65-570a47958100")
-		(property "Reference" "R9"
-			(at 65.532 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 78.994 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 98.298 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "488316fe-e993-46a7-bb7e-7769461a1e94")
-		)
-		(pin "2"
-			(uuid "5031ecb2-4af7-4dc4-b595-29a462a376d1")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 208.28 91.44 90)
 		(unit 1)
 		(body_style 1)
@@ -9630,7 +8870,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "GCT"
 			(at 233.68 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9641,7 +8881,7 @@
 				)
 			)
 		)
-		(property "MPN" "217179-0001"
+		(property "MPN" "USB4110-GF-A"
 			(at 233.68 99.06 0)
 			(hide yes)
 			(show_name no)
