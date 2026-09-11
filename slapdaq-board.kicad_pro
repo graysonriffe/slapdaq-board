@@ -440,7 +440,7 @@
         "uuid": "13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
       }
     ],
-    "used_designators": "C5-43,U4-16,L1-2,D2-3,#PWR13-14,#PWR18,#PWR22-97,#FLG1-6,R2,R17-38,J4-7",
+    "used_designators": "C5-44,U4-17,L1-2,D2-3,#PWR13-14,#PWR18,#PWR22-99,#FLG1-6,R2,R17-38,J4-11",
     "variants": []
   },
   "sheets": [
@@ -454,11 +454,7 @@
     ],
     [
       "6cb30bb6-2ed8-4e19-9b9a-43b34b8df240",
-      "Analog_Voltage_Inputs"
-    ],
-    [
-      "9fcf8c45-7878-4d71-8839-8a8c7cfe13dc",
-      "Differential_Voltage_Input"
+      "ADC"
     ],
     [
       "a78db6d7-437b-434b-b4fb-6f30222a6c59",

@@ -5868,7 +5868,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "6cb30bb6-2ed8-4e19-9b9a-43b34b8df240")
-		(property "Sheetname" "Analog_Voltage_Inputs"
+		(property "Sheetname" "ADC"
 			(at 184.15 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5894,52 +5894,6 @@
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 184.15 113.03)
-		(size 31.75 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "9fcf8c45-7878-4d71-8839-8a8c7cfe13dc")
-		(property "Sheetname" "Differential_Voltage_Input"
-			(at 184.15 112.3184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Differential_Voltage_Input.kicad_sch"
-			(at 184.15 130.1246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(page "4")
 				)
 			)
 		)
