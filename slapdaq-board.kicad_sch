@@ -4602,7 +4602,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 87.63)
+		(at 198.12 78.74)
 		(size 31.75 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4618,7 +4618,7 @@
 		)
 		(uuid "6cb30bb6-2ed8-4e19-9b9a-43b34b8df240")
 		(property "Sheetname" "ADC"
-			(at 184.15 86.9184 0)
+			(at 198.12 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4628,8 +4628,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Analog_Voltage_Inputs.kicad_sch"
-			(at 184.15 104.7246 0)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 198.12 95.8346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4648,53 +4648,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 76.2)
-		(size 31.75 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "a78db6d7-437b-434b-b4fb-6f30222a6c59")
-		(property "Sheetname" "Current_Inputs"
-			(at 227.33 75.4884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Current_Inputs.kicad_sch"
-			(at 227.33 93.2946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 226.06 102.87)
+		(at 198.12 101.6)
 		(size 31.75 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4709,8 +4663,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "eb21b777-61c4-4e0c-995e-92861c8d5ad5")
-		(property "Sheetname" "Thermocouple_Input"
-			(at 226.06 102.1584 0)
+		(property "Sheetname" "Thermocouple"
+			(at 198.12 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4720,8 +4674,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Thermocouple_Input.kicad_sch"
-			(at 226.06 119.9646 0)
+		(property "Sheetfile" "Thermocouple.kicad_sch"
+			(at 198.12 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4734,13 +4688,13 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(page "6")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 184.15 60.96)
+		(at 198.12 55.88)
 		(size 31.75 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4755,8 +4709,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f3b0adef-1da3-4963-a2de-79e7f8ea7f57")
-		(property "Sheetname" "ESP32_Digital_IO"
-			(at 184.15 60.2484 0)
+		(property "Sheetname" "MCU_DIO"
+			(at 198.12 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4766,8 +4720,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ESP32_Digital_IO.kicad_sch"
-			(at 184.15 78.0546 0)
+		(property "Sheetfile" "MCU_DIO.kicad_sch"
+			(at 198.12 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

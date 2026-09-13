@@ -1543,7 +1543,7 @@
 		(dnp no)
 		(uuid "12301452-c48a-4b1a-9ccf-b2e002ecb83f")
 		(property "Reference" "C18"
-			(at 142.748 77.216 0)
+			(at 146.558 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1553,8 +1553,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 147.066 77.47 0)
+		(property "Value" "0.1u"
+			(at 146.812 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1622,10 +1622,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "27739e9d-d808-4ca7-b0ec-92fac8912e65")
 		(property "Reference" "U11"
-			(at 169.7833 71.12 0)
+			(at 171.196 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1636,7 +1635,7 @@
 			)
 		)
 		(property "Value" "MAX31856"
-			(at 169.7833 73.66 0)
+			(at 168.656 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2089,7 +2088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 168.402 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2170,7 +2169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 156.21 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2329,8 +2328,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01uF"
-			(at 127 98.806 0)
+		(property "Value" "0.01u"
+			(at 127.508 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2410,8 +2409,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01uF"
-			(at 135.89 98.806 0)
+		(property "Value" "0.01u"
+			(at 136.652 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
