@@ -692,7 +692,7 @@
     "top_level_sheets": [
       {
         "filename": "slapdaq-board.kicad_sch",
-        "name": "System_Power",
+        "name": "Power",
         "uuid": "13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
       }
     ],
@@ -702,11 +702,11 @@
   "sheets": [
     [
       "13b31ec5-9d44-45c3-b3e5-a18c48e5f516",
-      "System_Power"
+      "Power"
     ],
     [
       "f3b0adef-1da3-4963-a2de-79e7f8ea7f57",
-      "MCU_DIO"
+      "MCU"
     ],
     [
       "6cb30bb6-2ed8-4e19-9b9a-43b34b8df240",

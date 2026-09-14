@@ -5,7 +5,7 @@
 	(uuid "13b31ec5-9d44-45c3-b3e5-a18c48e5f516")
 	(paper "A")
 	(title_block
-		(title "System/Power")
+		(title "Power")
 		(date "2026-09-08")
 		(rev "1")
 		(company "Faster Than Sound")
@@ -4709,7 +4709,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f3b0adef-1da3-4963-a2de-79e7f8ea7f57")
-		(property "Sheetname" "MCU_DIO"
+		(property "Sheetname" "MCU"
 			(at 198.12 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -5,7 +5,7 @@
 	(uuid "5172f51e-a3cf-4e07-9107-368e02962ccb")
 	(paper "A")
 	(title_block
-		(title "Thermocouple Input")
+		(title "Thermocouple")
 		(date "2026-09-08")
 		(rev "1")
 		(company "Slap DAQ")

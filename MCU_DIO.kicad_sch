@@ -5,7 +5,7 @@
 	(uuid "ee3f66c8-7c07-4eea-8a6a-3a912f0b2142")
 	(paper "A")
 	(title_block
-		(title "ESP32 / Digital I/O")
+		(title "MCU")
 		(date "2026-09-08")
 		(rev "1")
 		(company "Slap DAQ")
