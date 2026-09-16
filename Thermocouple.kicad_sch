@@ -1928,7 +1928,7 @@
 		(dnp no)
 		(uuid "3e9b2150-4537-4559-b66d-5e9325f27846")
 		(property "Reference" "R32"
-			(at 112.776 86.36 90)
+			(at 118.11 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2007,7 +2007,7 @@
 		(dnp no)
 		(uuid "4b0f0dcb-703c-4cff-ad2f-d0388fdbd0ce")
 		(property "Reference" "R33"
-			(at 112.776 88.9 90)
+			(at 118.11 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
