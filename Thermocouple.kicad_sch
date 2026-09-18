@@ -1683,6 +1683,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 144.78 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d15c9c55-54bc-40c7-b30a-a5b9f929ff19")
 		)
@@ -1777,6 +1788,17 @@
 			)
 		)
 		(property "MPN" "MAX31856MUD+"
+			(at 165.1 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 165.1 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1980,6 +2002,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 118.11 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0af75d0f-656d-4193-a613-46c76b62e276")
 		)
@@ -2050,6 +2083,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 118.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 118.11 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2218,6 +2262,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 167.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7447553-b0c4-4136-bcc4-30e4941c8815")
 		)
@@ -2289,6 +2344,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 162.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 162.56 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2458,6 +2524,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 127 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e51e293c-853f-438c-b75e-1430caf00367")
 		)
@@ -2529,6 +2606,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 135.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2634,6 +2722,17 @@
 			)
 		)
 		(property "MPN" "1715721"
+			(at 101.6 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 101.6 86.36 0)
 			(hide yes)
 			(show_name no)

@@ -1890,6 +1890,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "For Grayson: Connect Vbus to the input of the 3.3 V regulator (and the +5V net?)\nI think that will allow the entire device to work with only USB power.\nUse schottky diodes."
+		(exclude_from_sim no)
+		(at 148.59 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17182a15-3e48-4e36-9afe-58d2ad731c81")
+	)
 	(junction
 		(at 107.95 101.6)
 		(diameter 0)
@@ -2458,6 +2468,30 @@
 		)
 		(uuid "fd72c410-7e31-4984-9fd3-8b90bf080e76")
 	)
+	(global_label "Vbus"
+		(shape input)
+		(at 135.89 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e87ba484-1d62-468e-bbf4-309b409f928b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.2899 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 104.14 118.11 0)
@@ -2749,6 +2783,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 63.5 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 63.5 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3086,6 +3131,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "60fdfc5c-8b34-47d6-9124-9dc074b561ad")
 		)
@@ -3180,6 +3236,17 @@
 			)
 		)
 		(property "MPN" "LM2675M-3.3/NOPB"
+			(at 85.09 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 85.09 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3524,6 +3591,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 85.09 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "09addc8f-b2b3-4039-bb1d-4e2d65af30c8")
 		)
@@ -3622,6 +3700,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 113.03 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3cad640b-26a1-440f-8fb3-952808b2e0b1")
 		)
@@ -3693,6 +3782,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 113.03 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 113.03 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3873,6 +3973,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 104.14 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f63f65f5-bad9-4651-b8ae-427a5ee8028e")
 		)
@@ -3943,6 +4054,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 102.87 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 102.87 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,6 +4231,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 102.87 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e56ad4f6-e37d-461f-8513-5269f02c9fd1")
 		)
@@ -4192,6 +4325,17 @@
 			)
 		)
 		(property "MPN" "595D686X9010C2T"
+			(at 120.65 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 120.65 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4307,6 +4451,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 40.64 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1f4e8e7-11f9-4992-9aa6-1c5a323a12ab")
 		)
@@ -4379,6 +4534,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 63.5 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 63.5 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4493,6 +4659,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 52.07 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "32d2da8b-ad41-45f3-a0e6-329d90ea9c8b")
 		)
@@ -4576,6 +4753,17 @@
 			)
 		)
 		(property "MPN" "SK13"
+			(at 104.14 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 104.14 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -4720,7 +4908,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU_DIO.kicad_sch"
+		(property "Sheetfile" "MCU.kicad_sch"
 			(at 198.12 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)

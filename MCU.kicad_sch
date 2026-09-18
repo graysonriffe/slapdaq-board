@@ -2900,16 +2900,6 @@
 		)
 		(uuid "d67d7cb0-271f-42e7-a510-3e51d2768ca7")
 	)
-	(text "For Grayson: Connect Vbus to the input of the 3.3 V regulator (and the +5V net?)\nI think that will allow the entire device to work with only USB power.\nUse schottky diodes."
-		(exclude_from_sim no)
-		(at 209.804 73.406 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dae921e0-b194-497c-824c-7f536082c5ed")
-	)
 	(junction
 		(at 175.26 91.44)
 		(diameter 0)
@@ -3980,6 +3970,30 @@
 		)
 		(uuid "f0e54c1c-ed9a-47ff-819b-515c93a53d43")
 	)
+	(global_label "Vbus"
+		(shape input)
+		(at 172.72 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04c52ca1-4f9c-4e75-aa84-3595f8a76890")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3201 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "CS0_ADC"
 		(shape input)
 		(at 116.84 111.76 180)
@@ -4167,6 +4181,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 121.92 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "afcb86db-0a48-42be-8131-2276105fa3d1")
 		)
@@ -4238,6 +4263,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 81.28 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4680,6 +4716,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 191.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "513e882b-136b-42b9-a57f-32f50854b354")
 		)
@@ -5008,6 +5055,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 124.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "303e5e81-8a1d-4fea-b6a7-18ff2c3f767f")
 		)
@@ -5120,6 +5178,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 104.14 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a9531931-a9ae-471a-bf38-de1b214f5f2f")
 		)
@@ -5192,6 +5261,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 104.14 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 104.14 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5362,6 +5442,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 99.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7e3cd31b-24c3-4595-a683-437e08d09144")
 		)
@@ -5512,6 +5603,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 208.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 208.28 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,6 +5894,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 121.92 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3adc3c5c-3621-4e25-a1ce-3505b81cbcf0")
 		)
@@ -5864,6 +5977,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 106.68 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 106.68 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5968,6 +6092,17 @@
 			)
 		)
 		(property "MPN" "ESP32-S3-WROOM-1-N16R8"
+			(at 135.89 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6255,6 +6390,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 113.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "373d476f-7e01-4d5a-a7b7-9d501d88feac")
 		)
@@ -6414,6 +6560,17 @@
 				)
 			)
 		)
+		(property "Mouser Link" ""
+			(at 208.28 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9efb6f63-88a3-4b17-9006-02518ca34620")
 		)
@@ -6509,6 +6666,17 @@
 			)
 		)
 		(property "MPN" "USB4110-GF-A"
+			(at 233.68 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Link" ""
 			(at 233.68 99.06 0)
 			(hide yes)
 			(show_name no)
