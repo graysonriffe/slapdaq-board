@@ -2504,7 +2504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08ab7447-46a3-4a8d-8f16-04aecaecb248")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR07"
 			(at 104.14 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2564,7 +2564,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "#PWR030")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2660,7 +2660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ac0a1c4-51ce-4b3c-b9a8-c8453e8d56c9")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 120.65 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2720,7 +2720,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "#PWR03")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2738,7 +2738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123ced47-8535-454a-a4a8-ec0f68586922")
-		(property "Reference" "C15"
+		(property "Reference" "C2"
 			(at 67.31 107.0609 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2813,7 +2813,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "C15")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2831,7 +2831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "221681fd-1e33-4c76-91f4-9adf339673d6")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR05"
 			(at 85.09 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2891,7 +2891,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "#PWR018")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2909,7 +2909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a517b78-6918-44d0-992b-ef275461af67")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 63.5 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2969,7 +2969,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "#PWR07")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2987,7 +2987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c471c42-a138-444a-ba01-a700b590a87f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3047,7 +3047,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3065,7 +3065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38e9c55b-bd03-4ce4-be65-46d482c7940e")
-		(property "Reference" "C30"
+		(property "Reference" "C6"
 			(at 124.46 110.8709 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,7 +3151,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "C30")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3302,7 +3302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42fe9231-2376-42ce-8b79-c920bbb419ee")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR010"
 			(at 120.65 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3362,7 +3362,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "#PWR045")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3380,7 +3380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4340fa0f-f116-4640-a3aa-a8ea7b9e797b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 48.26 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3440,7 +3440,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3458,7 +3458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "476dbc6f-8bbe-4690-bdb0-4df8e53d7ce8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 85.09 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3518,7 +3518,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3829,7 +3829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e37d5b4-9c03-4369-be35-92c441e94035")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 120.65 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3889,7 +3889,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3907,7 +3907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "760183e9-0472-47af-96a8-72a1f37acef7")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 106.68 72.0724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3993,7 +3993,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4101,7 +4101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82901ece-80c6-4aa6-b663-ccfc5a22bd95")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR011"
 			(at 120.65 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4161,7 +4161,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "#PWR038")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4178,7 +4178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "839ecf02-1140-4824-8a4d-691d2094fdcb")
-		(property "Reference" "C29"
+		(property "Reference" "C4"
 			(at 102.87 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4251,7 +4251,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "C29")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4269,7 +4269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c028e6-e1b2-438c-84fe-820d2ad7b232")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 124.46 74.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4355,7 +4355,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4697,7 +4697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff18fe73-2468-4b16-aec8-edbe1cbc3ea0")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 106.68 111.4424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4783,7 +4783,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)

@@ -576,12 +576,6 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Mouser Link",
-          "name": "Mouser Link",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -652,6 +646,12 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Link",
+          "name": "Mouser Link",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -659,7 +659,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -702,7 +702,7 @@
         "uuid": "13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
       }
     ],
-    "used_designators": "C1-3,C5-44,U1-2,U4-17,#PWR1-7,#PWR13-14,#PWR18-19,#PWR22-99,D2-5,L1-2,J3-11,R2,R5-14,R17-38,#FLG1-6",
+    "used_designators": "C1-44,U1-17,#PWR1-99,D1-5,L1-2,J1-11,#FLG1-6,R1-38,F1",
     "variants": []
   },
   "sheets": [
