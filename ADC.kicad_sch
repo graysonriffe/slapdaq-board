@@ -5,10 +5,11 @@
 	(uuid "f5da96e5-f59e-45e9-bfb2-216a6299114b")
 	(paper "A")
 	(title_block
-		(title "ADC")
-		(date "2026-09-08")
+		(title "SlapDAQ - MCU")
+		(date "2026-09-20")
 		(rev "1")
-		(company "Slap DAQ")
+		(company "Faster Than Sound")
+		(comment 1 "Customer: ESET")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -1870,6 +1871,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Current 2"
+		(exclude_from_sim no)
+		(at 162.56 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23cad94b-aa40-4898-a4b1-6df5aa79e2e8")
+	)
 	(text "Positive Ref"
 		(exclude_from_sim no)
 		(at 160.782 77.724 0)
@@ -1890,7 +1901,7 @@
 		)
 		(uuid "61f9d37f-1ace-4309-a7ad-741a4149491f")
 	)
-	(text "Noise RC fc = 1.6 kHz"
+	(text "Noise RC fc = 1.6 MHz"
 		(exclude_from_sim no)
 		(at 55.372 52.07 0)
 		(effects
@@ -1899,6 +1910,16 @@
 			)
 		)
 		(uuid "7203529e-3b8d-4731-b196-08e42dc2f7b1")
+	)
+	(text "Analog 1"
+		(exclude_from_sim no)
+		(at 162.56 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7290d27f-7536-484d-ac3a-91abe75b7a99")
 	)
 	(text "Differential fc = 80 kHz\nCommon mode fc = 1.6 MHz"
 		(exclude_from_sim no)
@@ -1910,6 +1931,36 @@
 		)
 		(uuid "7399938b-dcf6-416d-9826-d1aa46c035f2")
 	)
+	(text "Analog 4"
+		(exclude_from_sim no)
+		(at 162.56 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c6bf382-6293-48a8-83aa-5e48cd6cb04a")
+	)
+	(text "Current 1"
+		(exclude_from_sim no)
+		(at 162.56 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99ac398a-9061-4214-b3c5-401a50c934b9")
+	)
+	(text "Analog 2"
+		(exclude_from_sim no)
+		(at 162.56 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aeb9c438-8a84-4e1f-b273-91050b70e41c")
+	)
 	(text "All AFE capacitors are C0G"
 		(exclude_from_sim no)
 		(at 86.614 39.116 0)
@@ -1919,6 +1970,36 @@
 			)
 		)
 		(uuid "b58d3850-36b4-4522-a5c0-d97aa4e2af6c")
+	)
+	(text "Diff. Analog -"
+		(exclude_from_sim no)
+		(at 160.274 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb95ebc0-fb4d-4ec0-9287-1d3de9fe1408")
+	)
+	(text "Diff. Analog +"
+		(exclude_from_sim no)
+		(at 160.274 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7ee1d79-9045-4655-a019-7cd39e104265")
+	)
+	(text "Analog 3"
+		(exclude_from_sim no)
+		(at 162.56 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f666abdc-8bea-4bd4-a516-d869bd2ce47f")
 	)
 	(text "C0G"
 		(exclude_from_sim no)
@@ -1979,12 +2060,6 @@
 		(uuid "4d4b60bc-46cf-4619-a942-e790d0320145")
 	)
 	(junction
-		(at 147.32 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52ab47fd-4d52-43d7-8858-f1f37ce4dc9d")
-	)
-	(junction
 		(at 171.45 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1995,6 +2070,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "582f10d5-55e4-417e-9768-e718473e0df6")
+	)
+	(junction
+		(at 147.32 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a0389d4-1308-42e6-a0d4-137989bd63af")
 	)
 	(junction
 		(at 86.36 45.72)
@@ -2316,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 52.07) (xy 147.32 55.88)
+			(xy 147.32 53.34) (xy 147.32 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3146,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 43.18) (xy 147.32 44.45)
+			(xy 147.32 43.18) (xy 147.32 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3513,7 +3594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1n"
 			(at 90.17 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 87.3252 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3557,7 +3638,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31C5C3A102JWA3L?qs=qkDYIeTQ%252BEmDbbB2QtqPzw%3D%3D"
+			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31C5C3A102JWA3L"
 			(at 86.36 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3594,7 +3686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07e3cc69-7e12-4712-8d70-b330112cfa13")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 81.534 162.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +3706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 80.518 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -3647,7 +3739,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/YAGEO/AC1206FR-071RL?qs=ygRr%2FtkhtevIfIkYnSxw9Q%3D%3D"
+			(at 78.74 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AC1206FR-071RL"
 			(at 78.74 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -3667,7 +3770,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3684,7 +3787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ea121f2-73c7-4eda-9233-c3f90305563b")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 76.2 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3704,7 +3807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 76.2 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -3737,7 +3840,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/YAGEO/RC1206DR-07100RL?qs=tggtontpCXNF7sVGvs42TA%3D%3D"
+			(at 76.2 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206DR-07100RL"
 			(at 76.2 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3757,7 +3871,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3774,7 +3888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "107f5847-d1ca-44dd-a494-b7b1aea554c6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 78.74 127 0)
 			(hide yes)
 			(show_name no)
@@ -3834,7 +3948,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3852,7 +3966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1374e118-e2ff-46d0-bc18-11bcc71b50bf")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR047"
 			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3912,7 +4026,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR044")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3930,7 +4044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13765478-249d-41a9-bd8f-37e44065754e")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 185.42 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3990,7 +4104,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4029,7 +4143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 176.53 124.7648 0)
 			(hide yes)
 			(show_name no)
@@ -4062,7 +4176,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GCM3195C2A472FA16D?qs=QzBtWTOodeVUlsdFf8emTQ%3D%3D"
+			(at 172.72 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM3195C2A472FA16D"
 			(at 172.72 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -4099,7 +4224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19744cdc-d29f-4a96-852c-589bbee447e1")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 87.63 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,7 +4244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 87.63 160.528 90)
 			(hide yes)
 			(show_name no)
@@ -4152,7 +4277,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/YAGEO/RC1206DR-07100RL?qs=tggtontpCXNF7sVGvs42TA%3D%3D"
+			(at 87.63 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206DR-07100RL"
 			(at 87.63 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -4172,7 +4308,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4189,7 +4325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1979cc99-eaf0-444b-8155-92262a03ee07")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 76.2 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4209,7 +4345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 76.2 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -4242,7 +4378,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/YAGEO/RC1206DR-07100RL?qs=tggtontpCXNF7sVGvs42TA%3D%3D"
+			(at 76.2 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206DR-07100RL"
 			(at 76.2 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -4262,7 +4409,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4302,7 +4449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 100.0252 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4335,7 +4482,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31C5C2J103JWA3L?qs=rI7uf1IzohT2vA3QhRTOow%3D%3D"
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31C5C2J103JWA3L"
 			(at 99.06 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4384,7 +4542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DIFFERENTIAL INPUTS"
+		(property "Value" "DIFFERENTIAL INPUT"
 			(at 65.786 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4455,7 +4613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26eded34-3bc2-45f2-b5e4-591c8c1848ad")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 78.74 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4515,7 +4673,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4532,7 +4690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2903efd0-15d4-4cbc-ac1c-d2379bd2031b")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 86.36 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4592,7 +4750,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4621,7 +4779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1n"
 			(at 90.17 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4632,7 +4790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 87.3252 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4665,7 +4823,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31C5C3A102JWA3L?qs=qkDYIeTQ%252BEmDbbB2QtqPzw%3D%3D"
+			(at 86.36 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31C5C3A102JWA3L"
 			(at 86.36 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4702,7 +4871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b715fe5-70d9-40ae-b0c8-97a4b48ff575")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 73.66 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,7 +4891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 73.66 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -4755,7 +4924,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/YAGEO/RC1206DR-07100RL?qs=tggtontpCXNF7sVGvs42TA%3D%3D"
+			(at 73.66 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206DR-07100RL"
 			(at 73.66 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -4775,7 +4955,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4793,7 +4973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ba74470-a37c-439c-8eb4-1fc2a663df2f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 137.16 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4853,7 +5033,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4870,7 +5050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f208614-dbf6-4891-b898-4636afca3edf")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 76.2 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4890,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 76.2 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -4923,7 +5103,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/YAGEO/RC1206DR-07100RL?qs=tggtontpCXNF7sVGvs42TA%3D%3D"
+			(at 76.2 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206DR-07100RL"
 			(at 76.2 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -4943,7 +5134,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4961,7 +5152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d0f885c-5fcf-48bd-b983-7bdb5b4b102c")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR044"
 			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5021,7 +5212,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR041")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5038,7 +5229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47f7c90f-bcd2-4f6b-9dea-f3d528f7f2fe")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 73.66 108.204 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,7 +5249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 73.66 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -5091,7 +5282,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/YAGEO/RC1206DR-07100RL?qs=tggtontpCXNF7sVGvs42TA%3D%3D"
+			(at 73.66 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206DR-07100RL"
 			(at 73.66 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -5111,7 +5313,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5128,7 +5330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "502f9241-067f-40e7-8d07-952f80f5bcce")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 87.63 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5148,7 +5350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 87.63 141.478 90)
 			(hide yes)
 			(show_name no)
@@ -5181,7 +5383,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/YAGEO/RC1206DR-07100RL?qs=tggtontpCXNF7sVGvs42TA%3D%3D"
+			(at 87.63 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206DR-07100RL"
 			(at 87.63 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -5201,7 +5414,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5300,7 +5513,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "518e7a1d-74ab-46b5-8b10-0a9f23787169")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 86.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5360,7 +5573,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5400,7 +5613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 86.0552 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5433,7 +5646,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31C5C3A102JWA3L?qs=qkDYIeTQ%252BEmDbbB2QtqPzw%3D%3D"
+			(at 85.09 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31C5C3A102JWA3L"
 			(at 85.09 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5559,7 +5783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55bfee72-a11d-414c-a093-9390990f7fa8")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 165.1 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5619,7 +5843,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5636,7 +5860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55cb5a3f-fcb5-46a6-ac56-147ccce271c4")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 81.788 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5656,7 +5880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 80.518 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -5689,7 +5913,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/YAGEO/AC1206FR-071RL?qs=ygRr%2FtkhtevIfIkYnSxw9Q%3D%3D"
+			(at 78.74 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AC1206FR-071RL"
 			(at 78.74 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5709,7 +5944,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5726,7 +5961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e71248a-3550-46c2-8143-7b0ff28467a6")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5786,7 +6021,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5794,7 +6029,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 147.32 48.26 0)
+		(at 147.32 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5804,7 +6039,7 @@
 		(dnp no)
 		(uuid "61c5ecea-dfbf-44d9-a1f7-855f9ea99384")
 		(property "Reference" "C18"
-			(at 148.082 46.228 0)
+			(at 148.082 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5815,7 +6050,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 148.082 50.8 0)
+			(at 148.082 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5825,8 +6060,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.2852 52.07 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 148.2852 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5837,7 +6072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 48.26 0)
+			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5848,7 +6083,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 147.32 48.26 0)
+			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5858,8 +6093,19 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
-			(at 147.32 48.26 0)
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31CR71E105KA01L?qs=84nSAGdh8NUhzUOgOrrNpg%3D%3D"
+			(at 147.32 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31CR71E105KA01L"
+			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,7 +6141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68da8244-0a06-4c92-8055-260f28f7fc1b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 86.36 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5955,7 +6201,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5984,7 +6230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1n"
 			(at 90.17 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,7 +6241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 87.3252 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6028,7 +6274,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31C5C3A102JWA3L?qs=qkDYIeTQ%252BEmDbbB2QtqPzw%3D%3D"
+			(at 86.36 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31C5C3A102JWA3L"
 			(at 86.36 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6066,7 +6323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f19e462-d164-42da-8bd6-78738dc47395")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR043"
 			(at 177.8 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6126,7 +6383,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR040")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6143,7 +6400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71cd6935-ea1c-4705-8932-68390db9ce35")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 76.2 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6163,7 +6420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 76.2 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -6196,7 +6453,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/YAGEO/RC1206DR-07100RL?qs=tggtontpCXNF7sVGvs42TA%3D%3D"
+			(at 76.2 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206DR-07100RL"
 			(at 76.2 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -6216,7 +6484,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6234,7 +6502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "742b74d1-62db-4fc9-a944-1daaae302f28")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 78.74 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6294,7 +6562,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6333,7 +6601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 164.1348 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6366,7 +6634,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GCM31CC71E106KA03K?qs=hNud%2FORuBR2pMtJoLPICsQ%3D%3D"
+			(at 165.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM31CC71E106KA03K"
 			(at 165.1 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6404,7 +6683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f0009d-8eba-4cdf-bff8-87c1713609b7")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 127 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6464,7 +6743,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6481,7 +6760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89196120-acea-457f-b7d0-f00a2cf4adbf")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 137.16 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6556,7 +6835,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Texas-Instruments/REF3333AIDBZR?qs=7KoJEllG3D1OY7cEjajdfg%3D%3D"
 			(at 137.16 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6579,7 +6858,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6618,7 +6897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 127.9652 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6651,7 +6930,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31CR71E105KA01L?qs=84nSAGdh8NUhzUOgOrrNpg%3D%3D"
+			(at 127 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31CR71E105KA01L"
 			(at 127 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6688,7 +6978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9751211c-f6a3-4c6d-9aa8-7b5bd6cd932b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 86.36 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6748,7 +7038,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6766,7 +7056,7 @@
 		(dnp no)
 		(uuid "9b76ee2b-b2a9-4d61-8cc5-a7988279a248")
 		(property "Reference" "C23"
-			(at 174.498 132.08 0)
+			(at 173.482 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6787,7 +7077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 178.7652 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6820,7 +7110,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31CR71E105KA01L?qs=84nSAGdh8NUhzUOgOrrNpg%3D%3D"
+			(at 177.8 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31CR71E105KA01L"
 			(at 177.8 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6879,7 +7180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 190.8048 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6912,7 +7213,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31CR71E105KA01L?qs=84nSAGdh8NUhzUOgOrrNpg%3D%3D"
+			(at 191.77 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31CR71E105KA01L"
 			(at 191.77 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6950,7 +7262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8648d5a-6e26-4c36-8e2c-6a4b7edd18a3")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR051"
 			(at 215.9 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7011,7 +7323,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR048")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7029,7 +7341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aad1cb19-281f-4f5e-bb7f-460a0448236c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR045"
 			(at 185.42 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7089,7 +7401,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR042")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7117,7 +7429,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 144.018 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,7 +7440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 150.8252 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7161,7 +7473,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31CR72E104KW03L?qs=dSG6KG9Gilq13HemRFxTRg%3D%3D"
+			(at 149.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31CR72E104KW03L"
 			(at 149.86 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7199,7 +7522,7 @@
 		(dnp no)
 		(uuid "ba805fd7-f4b7-4296-aced-847815cf8c15")
 		(property "Reference" "C25"
-			(at 199.898 110.49 0)
+			(at 199.136 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7220,7 +7543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 204.1652 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7253,7 +7576,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GCM31CC71E106KA03K?qs=hNud%2FORuBR2pMtJoLPICsQ%3D%3D"
+			(at 203.2 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM31CC71E106KA03K"
 			(at 203.2 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7290,7 +7624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be92ee5a-b021-44bc-9f06-764421613abc")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 165.1 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7350,7 +7684,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7367,7 +7701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2a645de-d7c4-46f1-a767-c65c8a8b177a")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR048"
 			(at 191.77 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7427,7 +7761,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR045")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7467,7 +7801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 86.0552 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7500,7 +7834,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31C5C3A102JWA3L?qs=qkDYIeTQ%252BEmDbbB2QtqPzw%3D%3D"
+			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31C5C3A102JWA3L"
 			(at 85.09 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7538,7 +7883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca207134-3290-416b-aa36-bf7e6669484a")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 147.32 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7598,7 +7943,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7616,7 +7961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccb94e52-014c-4294-a9c2-da36edc5815b")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 127 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7676,7 +8021,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7694,7 +8039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d868ad49-aef0-4fa7-b381-1b445ae57bab")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR042"
 			(at 177.8 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7754,7 +8099,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR039")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7771,7 +8116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e70825e1-8092-4d1a-a460-c36760a3ad2a")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 194.31 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7832,7 +8177,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7861,7 +8206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1n"
 			(at 90.17 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7872,7 +8217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 87.3252 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7905,7 +8250,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31C5C3A102JWA3L?qs=qkDYIeTQ%252BEmDbbB2QtqPzw%3D%3D"
+			(at 86.36 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31C5C3A102JWA3L"
 			(at 86.36 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7943,7 +8299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f073eb50-377f-4255-bf10-3f9972ea5802")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR050"
 			(at 203.2 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8003,7 +8359,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8021,7 +8377,7 @@
 		(dnp no)
 		(uuid "f728e931-e4a4-4eb2-b89f-284470f13e62")
 		(property "Reference" "C21"
-			(at 174.752 66.04 0)
+			(at 175.514 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8042,7 +8398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 170.4848 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8075,7 +8431,18 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31CR72E104KW03L?qs=dSG6KG9Gilq13HemRFxTRg%3D%3D"
+			(at 171.45 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31CR72E104KW03L"
 			(at 171.45 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8112,7 +8479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faf2ebe0-e327-4b50-a4d4-107c6fc2455b")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 187.706 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8134,7 +8501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias"
 			(at 181.61 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8189,7 +8556,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" ""
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Texas-Instruments/ADS1261IRHBT?qs=MLItCLRbWsyDHwmkYWy%252BgA%3D%3D"
 			(at 181.61 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8302,7 +8669,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8319,7 +8686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbb15baf-74cd-4fa8-9f4a-7cd1c99b27a6")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 142.24 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8379,7 +8746,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
