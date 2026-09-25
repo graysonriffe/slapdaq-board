@@ -12,380 +12,6 @@
 		(comment 1 "Customer: ESET")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Custom_Symbols:ADS1261"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1923,13 +1549,23 @@
 	)
 	(text "Differential fc = 80 kHz\nCommon mode fc = 1.6 MHz"
 		(exclude_from_sim no)
-		(at 83.058 104.648 0)
+		(at 56.134 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "7399938b-dcf6-416d-9826-d1aa46c035f2")
+	)
+	(text "Current Inputs"
+		(exclude_from_sim no)
+		(at 43.942 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79ca7bd1-c5ee-4e17-80ba-b06e01a8f7ab")
 	)
 	(text "Analog 4"
 		(exclude_from_sim no)
@@ -1950,6 +1586,16 @@
 			)
 		)
 		(uuid "99ac398a-9061-4214-b3c5-401a50c934b9")
+	)
+	(text "Analog Voltage Inputs"
+		(exclude_from_sim no)
+		(at 36.576 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9fa83cfe-ec68-46a4-ac53-a4638957c7ac")
 	)
 	(text "Analog 2"
 		(exclude_from_sim no)
@@ -1990,6 +1636,16 @@
 			)
 		)
 		(uuid "d7ee1d79-9045-4655-a019-7cd39e104265")
+	)
+	(text "Differential Voltage Input"
+		(exclude_from_sim no)
+		(at 38.1 119.634 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0ea0cc6-d0ab-430c-8f4a-3a4ca82ab8ef")
 	)
 	(text "Analog 3"
 		(exclude_from_sim no)
@@ -3499,6 +3155,54 @@
 			)
 		)
 	)
+	(global_label "AV4"
+		(shape input)
+		(at 60.96 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11250b60-59f1-461f-97c7-f00ceeef2c77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.5881 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AV1"
+		(shape input)
+		(at 60.96 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "169a4804-af43-4849-82c5-b227f8e54fb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.5881 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SPI_Q"
 		(shape input)
 		(at 199.39 86.36 0)
@@ -3520,6 +3224,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "AV3"
+		(shape input)
+		(at 60.96 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a2009c9-e604-4dcb-b39e-fb1686649c91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.5881 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3547,6 +3275,102 @@
 			)
 		)
 	)
+	(global_label "C2"
+		(shape input)
+		(at 60.96 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9d78c93-d3f8-4ab0-9401-13f9edd841a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.4953 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 60.96 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2cd284e-939f-4b42-904d-a57d04c72e16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.4953 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DV-"
+		(shape input)
+		(at 60.96 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3ecc876-81b8-4822-b1a3-a2c52fe14f1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.0438 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AV2"
+		(shape input)
+		(at 60.96 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf5c79e4-ea64-4aa0-9ab2-82356701341b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.5881 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SPI_D"
 		(shape input)
 		(at 199.39 83.82 0)
@@ -3568,6 +3392,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "DV+"
+		(shape input)
+		(at 60.96 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e81f0ae2-a931-4663-820c-06ae58deb2c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.0438 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3888,7 +3736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "107f5847-d1ca-44dd-a494-b7b1aea554c6")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 78.74 127 0)
 			(hide yes)
 			(show_name no)
@@ -3948,7 +3796,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3966,7 +3814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1374e118-e2ff-46d0-bc18-11bcc71b50bf")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4026,7 +3874,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4044,7 +3892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13765478-249d-41a9-bd8f-37e44065754e")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 185.42 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4104,7 +3952,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4520,88 +4368,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 55.88 118.11 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "26d052ff-8135-414b-ba84-23899aa85938")
-		(property "Reference" "J5"
-			(at 56.896 115.316 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DIFFERENTIAL INPUT"
-			(at 65.786 112.776 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 55.88 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e6fd467-8515-4482-9039-be0fecb42bb4")
-		)
-		(pin "2"
-			(uuid "223cc9af-043a-46e8-8d49-f1be1c013a59")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 78.74 149.86 0)
 		(unit 1)
@@ -4613,7 +4379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26eded34-3bc2-45f2-b5e4-591c8c1848ad")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 78.74 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4673,7 +4439,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4690,7 +4456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2903efd0-15d4-4cbc-ac1c-d2379bd2031b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 86.36 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4750,7 +4516,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4973,7 +4739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ba74470-a37c-439c-8eb4-1fc2a663df2f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 137.16 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5033,7 +4799,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5152,7 +4918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d0f885c-5fcf-48bd-b983-7bdb5b4b102c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5212,7 +4978,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5421,88 +5187,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 55.88 148.59 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "514c03e9-a08a-44b5-a89d-7c9fe62089ff")
-		(property "Reference" "J6"
-			(at 56.642 145.542 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CURRENT INPUTS"
-			(at 62.992 143.256 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 55.88 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7830336-7dde-4611-99ea-7829d2c4d60a")
-		)
-		(pin "2"
-			(uuid "9b195243-3252-4ac7-be8b-12c76903b2e7")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 86.36 67.31 0)
 		(unit 1)
@@ -5513,7 +5197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "518e7a1d-74ab-46b5-8b10-0a9f23787169")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 86.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5573,7 +5257,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5684,94 +5368,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 55.88 64.77 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5570ce59-f46b-4c93-9c38-4859e1a9d92c")
-		(property "Reference" "J4"
-			(at 56.896 59.182 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ANALOG VOLTAGE INPUTS"
-			(at 67.818 56.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 55.88 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0b06962f-3336-4d17-b966-3842c5b0d12f")
-		)
-		(pin "3"
-			(uuid "399d3e05-ea4d-4d7c-8d86-0dd6d5c921b0")
-		)
-		(pin "1"
-			(uuid "80c042ad-bf8d-44c9-b0f1-f5361eab9c84")
-		)
-		(pin "4"
-			(uuid "e9bb9a28-5533-41fa-b200-e778bde613c5")
-		)
-		(instances
-			(project "slapdaq-board"
-				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 165.1 106.68 0)
 		(unit 1)
@@ -5783,7 +5379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55bfee72-a11d-414c-a093-9390990f7fa8")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 165.1 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5843,7 +5439,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5961,7 +5557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e71248a-3550-46c2-8143-7b0ff28467a6")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6021,7 +5617,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6141,7 +5737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68da8244-0a06-4c92-8055-260f28f7fc1b")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 86.36 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6201,7 +5797,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6323,7 +5919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f19e462-d164-42da-8bd6-78738dc47395")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 177.8 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6383,7 +5979,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6502,7 +6098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "742b74d1-62db-4fc9-a944-1daaae302f28")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 78.74 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6562,7 +6158,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6683,7 +6279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f0009d-8eba-4cdf-bff8-87c1713609b7")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 127 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6743,7 +6339,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6978,7 +6574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9751211c-f6a3-4c6d-9aa8-7b5bd6cd932b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 86.36 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7038,7 +6634,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7262,7 +6858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8648d5a-6e26-4c36-8e2c-6a4b7edd18a3")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 215.9 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7323,7 +6919,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7341,7 +6937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aad1cb19-281f-4f5e-bb7f-460a0448236c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 185.42 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7401,7 +6997,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7624,7 +7220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be92ee5a-b021-44bc-9f06-764421613abc")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 165.1 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7684,7 +7280,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7701,7 +7297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2a645de-d7c4-46f1-a767-c65c8a8b177a")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 191.77 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7761,7 +7357,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7883,7 +7479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca207134-3290-416b-aa36-bf7e6669484a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 147.32 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7943,7 +7539,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7961,7 +7557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccb94e52-014c-4294-a9c2-da36edc5815b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 127 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8021,7 +7617,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8039,7 +7635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d868ad49-aef0-4fa7-b381-1b445ae57bab")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 177.8 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8099,7 +7695,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8116,7 +7712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e70825e1-8092-4d1a-a460-c36760a3ad2a")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 194.31 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8177,7 +7773,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8299,7 +7895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f073eb50-377f-4255-bf10-3f9972ea5802")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 203.2 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8359,7 +7955,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8686,7 +8282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbb15baf-74cd-4fa8-9f4a-7cd1c99b27a6")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 142.24 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8746,7 +8342,7 @@
 		(instances
 			(project "slapdaq-board"
 				(path "/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/6cb30bb6-2ed8-4e19-9b9a-43b34b8df240"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

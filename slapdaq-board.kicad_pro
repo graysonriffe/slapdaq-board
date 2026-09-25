@@ -273,7 +273,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1257300|838200|2b3b2a49-aae2-428d-8b4e-c1b784b6c274|81a98871-141b-44da-8685-f389cf00de4b|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57",
+        ""
+      ],
+      [
+        "multiple_net_names|1257300|863600|5c5d2982-95f4-4a70-a594-af5ed837a463|3cc47c56-9e6b-4cc8-97d4-a56542463d13|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57",
+        ""
+      ],
+      [
+        "multiple_net_names|571500|1092200|2b3b2a49-aae2-428d-8b4e-c1b784b6c274|b8dfd7c7-b6e0-4c96-b731-96a896f3b1af|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57",
+        ""
+      ],
+      [
+        "multiple_net_names|571500|1117600|5c5d2982-95f4-4a70-a594-af5ed837a463|78ca81c7-47e3-47c6-8983-a2f7bb9474c6|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57|/13b31ec5-9d44-45c3-b3e5-a18c48e5f516/f3b0adef-1da3-4963-a2de-79e7f8ea7f57",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -497,7 +514,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Custom_Footprints"
+    ],
     "pinned_symbol_libs": [
       "Custom_ADS1261",
       "Custom_DT1042-04SO-7",
@@ -831,7 +850,7 @@
         "uuid": "13b31ec5-9d44-45c3-b3e5-a18c48e5f516"
       }
     ],
-    "used_designators": "C1-44,U1-17,L1-2,D1-7,#PWR1-99,R1-38,#GND1,#FLG1-6,J1-11,F1,Q1-2,V1,NT1",
+    "used_designators": "C1-44,U1-17,L1-2,D1-7,#PWR1-99,R1-38,#GND1,#FLG1-7,J1-11,F1,Q1-2,V1,NT1",
     "variants": []
   },
   "sheets": [
