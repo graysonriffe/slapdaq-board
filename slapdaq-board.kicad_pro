@@ -542,7 +542,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Downloads/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
