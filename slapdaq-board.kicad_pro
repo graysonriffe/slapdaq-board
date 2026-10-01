@@ -571,7 +571,7 @@
       "netlist": "",
       "plot": "../../../Downloads/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Downloads/slapdaq-board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
