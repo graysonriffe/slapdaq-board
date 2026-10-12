@@ -5948,7 +5948,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESP32-S3-WROOM-1-N8R2"
+		(property "MPN" "ESP32-S3-WROOM-1-N16R8"
 			(at 106.68 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5959,7 +5959,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N8R2?qs=Wj%2FVkw3K%252BMCC1Ha9x85iJA%3D%3D"
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N16R8?qs=Li%252BoUPsLEnvQc9gW6AMhZg%3D%3D"
 			(at 106.68 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6169,7 +6169,7 @@
 				)
 			)
 		)
-		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM31CR71A226KE15L?qs=%2FBLjsTEvPnhfnPGA5Hlk4g%3D%3D"
+		(property "Mouser Link" "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GCM31CR71A226KE02L?qs=9UHcxq0qN4vtutbd1jidnA%3D%3D"
 			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6180,7 +6180,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM31CR71A226KE15L"
+		(property "MPN" "GCM31CR71A226KE02L"
 			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
